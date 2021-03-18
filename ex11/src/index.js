@@ -1,4 +1,4 @@
-Function splitArrayInGroups(arr, n) {
+function splitArrayInGroups(arr, n) {
   result = [];
   while (arr.length > n) {
     result.push(arr.splice(0, n));
