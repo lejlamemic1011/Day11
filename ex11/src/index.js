@@ -1,11 +1,11 @@
 // Only change code below this line
 function splitArrayInGroups(arr, n) {
-    var result = [];
+    var result11 = [];
     
     for (var i = 0; i < n; i++) {
-        result.push(arr.splice(0, n))
+        result11.push(arr.splice(0, n))
     }
-    return result;
+    return result11;
 }    
 // Only change code above this line
 console.log(splitArrayInGroups(["a", "b", "c", "d"], 2)); // Change this line
